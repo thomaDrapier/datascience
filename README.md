@@ -79,6 +79,20 @@ PARTIE 8 : ENTRAÎNEMENT DU MODÈLE
   * Paramètres : Calcul d'un biais/intercept global (b0 = -1.6900) et de 16 coefficients/poids associés aux caractéristiques.
 - Représentation graphique de l'importance et de l'impact des variables sous forme d'un diagramme en barres horizontales triées, mettant en évidence les facteurs de risques positifs (accidents passés) et les facteurs protecteurs négatifs (excellent score de crédit).
 
+Réponse aux questions :
+- Hypothèse: l'algorithme fait l'hypothèse qu'en combinant toutes les informations du client de manière linéaire (en les additionnant avec des coefficients), on obtient une valeur qui se traduit directement en probabilité de faire une réclamation (entre 0 et 1) grâce à une courbe en "S" (la fonction sigmoïde).
+- Minimisation de la focntion de coût: Pour trouver les meilleurs réglages possibles et faire le moins d'erreurs, l'algorithme utilise une technique mathématique appelée la descente de gradient.
+- Apprentissage: Le biais et les coefficients
+
+PARTIE 9 : EVALUATION DU MODELE
+
+- Accuracy (84,00 %) : Le modèle obtient une note globale de 84 % de bonnes réponses sur l'ensemble du jeu de test.  
+- Précision (77,60 %) : Lorsqu'il prédit qu'un client va faire une réclamation, le modèle a vu juste dans 77,60 % des cas.  
+- Rappel / Recall (69,51 %) : L'algorithme réussit à intercepter et capturer près de 70 % des sinistres réels survenus.  
+- Succès sur les bons conducteurs : Identification sans faute de 1 240 clients sans sinistre (Vrais Négatifs).  
+- Succès sur les profils à risques : Interception réussie de 440 clients qui allaient faire une réclamation (Vrais Positifs).  
+- Fausses alertes limitées : Seulement 127 conducteurs prudents ont été classés à tort comme dangereux par l'algorithme (Faux Positifs).
+
 -------------------------------------------------------------------------------
 3. INSTRUCTIONS D'EXÉCUTION
 -------------------------------------------------------------------------------
