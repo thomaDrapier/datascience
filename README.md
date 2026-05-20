@@ -1,19 +1,14 @@
-===============================================================================
 PROJET SCIENCE DES DONNÉES - CLASSIFICATION SUPERVISÉE (ASSURANCE AUTOMOBILE)
-===============================================================================
 
 Ce dépôt GitHub contient les scripts et analyses réalisés dans le cadre du projet de
 classification supervisée pour la compagnie d'assurance automobile "On the Road".
 
 L'objectif principal est de prédire si un client effectuera une demande d'indemnisation
-(variable cible : 'outcome', 0 = pas de réclamation, 1 = réclamation effectuée) au cours
-de sa période d'assurance.
+au cours de sa période d'assurance.
 
 -------------------------------------------------------------------------------
 1. ARCHITECTURE DU RÉPERTOIRE
 -------------------------------------------------------------------------------
-Le projet est structuré de manière modulaire, conformément aux bonnes pratiques de la
-science des données. Chaque étape clé possède son propre script Python indépendant :
 
 ├── car_insurance.csv         # Jeu de données d'origine (10 000 lignes, 18 colonnes)
 ├── car_insurance_clean.csv   # Jeu de données nettoyé et transformé (généré à l'étape 5)
