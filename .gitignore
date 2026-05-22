@@ -1,0 +1,9 @@
+# Environnement virtuel
+.venv/
+
+# Caches Python
+__pycache__/
+*.pyc
+
+# Modèle sérialisé (généré par 12_sauvegarde.py)
+modele_final.pkl
